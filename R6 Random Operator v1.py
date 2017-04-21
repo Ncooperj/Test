@@ -5,7 +5,7 @@ while True:
     op = input("Attak or Defense: ")
 
     if op == "a" or op == "A":
-        operator = random.randint(1,8)
+        operator = random.randint(1,10)
 
         if operator == 1:
             print("Thatcher")
@@ -22,15 +22,15 @@ while True:
         elif operator == 6:
             print("Montagne")
 
-        #elif operator == 7:
-            #print("Glaz")
         elif operator == 7:
+            print("Glaz")
+        elif operator == 8:
             print("Fuze")
 
-        elif operator == 8:
+        elif operator == 9:
             print("Blitz")
-        #elif operator == 10:
-            #print("IQ")
+        elif operator == 10:
+            print("IQ")
 
         #elif operator == 11:
             #print("Buck")
@@ -44,7 +44,7 @@ while True:
             #print("Jackal")
 
     elif op == "d" or op == "D":
-        operator = random.randint(20,26)
+        operator = random.randint(20,29)
 
         if operator == 20:
             print("Smoke")
@@ -53,22 +53,22 @@ while True:
 
         elif operator == 22:
             print("Castle")
-        #elif operator == 23:
-            #print("Pulse")
-
-        #elif operator == 24:
-            #print("Doc")
         elif operator == 23:
-            print("Rook")
+            print("Pulse")
 
         elif operator == 24:
-            print("Kapkan")
-        #elif operator == 27:
-            #print("Tachanka")
-
+            print("Doc")
         elif operator == 25:
-            print("Jager")
+            print("Rook")
+
         elif operator == 26:
+            print("Kapkan")
+        elif operator == 27:
+            print("Tachanka")
+
+        elif operator == 28:
+            print("Jager")
+        elif operator == 29:
             print("Bandit")
 
         #elif operator == 30:
